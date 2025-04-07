@@ -1,29 +1,25 @@
-import { IoPersonOutline } from 'react-icons/io5'
-import './App.css'
+import { NavItem } from './components/NavItem/NavItem'
 import { NavItemContainer } from './components/NavItemContainer/NavItemContainer'
-import { useContext } from 'react'
-import { AppContext } from './contexts/AppContext'
 
 function App() {
 
-  const { text } = useContext(AppContext)
-
   return (
-    <div>
+    <div className='flex flex-row bg-lightBrown min-h-screen'>
 
-      <header>
-        <h1>Bookscript</h1>
+      <header className='flex flex-col bg-brown items-center px-8 py-4'>
+
+        <h1 className='text-4xl'>Bookscript</h1>
 
         <NavItemContainer />
         
-        <div>
-          <IoPersonOutline />
-          Usuário
-        </div>
+        <ul className='mt-auto'>
+          <NavItem 
+            icon='user'
+            spanText='Usuário'
+          />
+        </ul>
 
       </header>
-
-      <h1>O texto é: {text}</h1>
 
     </div>
   )
