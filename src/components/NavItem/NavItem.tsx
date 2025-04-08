@@ -19,7 +19,7 @@ export const NavItem = ({ icon, spanText }: NavItemProps) => {
     }
 
     return (
-        <li className="flex flex-row items-center text-2xl gap-2 text-white">
+        <li className="flex flex-row items-center text-3xl gap-2 text-lightGray font-oldenburg">
             {
                 renderIcon()
             }

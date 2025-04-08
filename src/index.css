@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&family=Oregano&display=swap');
 @import "tailwindcss";
 
 @theme{
     --color-lightBrown: #FFF8F5;
     --color-brown: #795E54;
+    --color-lightGray: #E8E8E8;
+
+    --font-oregano: "Oregano", cursive;
+    --font-oldenburg:"Oldenburg", serif;
+
+    
 }

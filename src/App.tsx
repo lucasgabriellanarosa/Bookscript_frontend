@@ -8,7 +8,7 @@ function App() {
 
       <header className='flex flex-col bg-brown items-center px-8 py-4'>
 
-        <h1 className='text-4xl'>Bookscript</h1>
+        <h1 className='text-4xl font-oregano'>Bookscript</h1>
 
         <NavItemContainer />
         
